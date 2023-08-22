@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wordle One Percent Winner</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="calculatescores.js"></script>
+</head>
+<body style="background-color:powderblue;">
+<body>
+    <h1>Wordle One Percent Calculator</h1>
+    <h3>Ciara</h3>
+    <div class="input-row">
+        <p>Guesses</p>
+        <input type="text" class="small-input" id="inputC1">
+        <p>Greens</p>
+        <input type="text" class="small-input" id="inputC2">
+        <p>Yellows</p>
+        <input type="text" class="small-input" id="inputC3">
+    </div>
+    <br>
+
+    <label for="inputCOne">One Percent Time:</label>
+    <input type="text" id="inputCOne">
+    <br>
+
+    <h3>Matthew</h3>
+    <div class="input-row">
+        <p>Guesses</p>
+        <input type="text" class="small-input" id="inputM1">
+        <p>Greens</p>
+        <input type="text" class="small-input" id="inputM2">
+        <p>Yellows</p>
+        <input type="text" class="small-input" id="inputM3">
+    </div>
+
+    <label for="inputMOne">One Percent Time:</label>
+    <input type="text" id="inputMOne">
+    <br><br>
+    <button onclick="calculate()">Calculate</button>
+
+    <p id="scoresC"></p>
+    <p id="scoresM"></p>
+    <br>
+    <p id="result"></p>
+
+</body>
+</html>

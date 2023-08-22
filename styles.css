@@ -1,0 +1,17 @@
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.small-input {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+}
