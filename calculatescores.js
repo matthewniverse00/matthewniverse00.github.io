@@ -24,10 +24,10 @@ function calculate() {
     let winner;
 
     if (scoreC < scoreM) {
-        winner = 'Ciara wins!';
+        winner = 'Ciara wins! Poo';
     }
     else if (scoreC > scoreM) {
-        winner = 'Matthew wins!';
+        winner = 'Matthew wins! Yippee';
     }
     else {
         winner = 'Draw! (wow what are the chances)';
